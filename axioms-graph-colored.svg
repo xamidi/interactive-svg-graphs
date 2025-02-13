@@ -1,0 +1,253 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="700" height="700" viewBox="-125 -125 250 250">
+	<style>
+	<![CDATA[
+		.m{ stroke: #f60 }
+		.w1{ stroke: #00f }
+		.w2{ stroke: #f0f }
+		.w3{ stroke: #f00 }
+		.w4{ stroke: #0a0 }
+		.w5{ stroke: #8000ff }
+		.w6{ stroke: #964b00 }
+		.m_{ fill: #f60 }
+		.w1_{ fill: #00f }
+		.w2_{ fill: #f0f }
+		.w3_{ fill: #f00 }
+		.w4_{ fill: #0a0 }
+		.w5_{ fill: #8000ff }
+		.w6_{ fill: #964b00 }
+		.m__{ marker-mid: url(#m) }
+		.w1__{ marker-mid: url(#w1) }
+		.w2__{ marker-mid: url(#w2) }
+		.w3__{ marker-mid: url(#w3) }
+		.w4__{ marker-mid: url(#w4) }
+		.w5__{ marker-mid: url(#w5) }
+		.w6__{ marker-mid: url(#w6) }
+		.O{ overflow: visible }
+		.S{ stroke-width: .625 }
+		.B { /*fill: #303646*/ }
+		.F{ font-size: 10px; fill: #fff; stroke: none }
+		.G circle { stroke-width: 1.2 }
+		.G text { font-family: sans-serif }
+		.m:hover, .m:hover ~ .m, .m:has(~ .m:hover){ stroke: #ff9c52 }
+		.m:hover .B, .m:hover ~ .m .B{ fill: #ff8129 }
+		.w1:hover, .w1:hover ~ .w1, .w1:has(~ .w1:hover){ stroke: #3351ff }
+		.w1:hover .B, .w1:hover ~ .w1 .B{ fill: #263dff }
+		.w2:hover, .w2:hover ~ .w2, .w2:has(~ .w2:hover){ stroke: #ff66ff }
+		.w2:hover .B, .w2:hover ~ .w2 .B{ fill: #ff42ff }
+		.w3:hover, .w3:hover ~ .w3, .w3:has(~ .w3:hover){ stroke: #ff4c4c }
+		.w3:hover .B, .w3:hover ~ .w3 .B{ fill: #ff3939 }
+		.w4:hover, .w4:hover ~ .w4, .w4:has(~ .w4:hover){ stroke: #33d433 }
+		.w4:hover .B, .w4:hover ~ .w4 .B{ fill: #1abf1a }
+		.w5:hover, .w5:hover ~ .w5, .w5:has(~ .w5:hover){ stroke: #b366ff }
+		.w5:hover .B, .w5:hover ~ .w5 .B{ fill: #9326ff }
+		.w6:hover, .w6:hover ~ .w6, .w6:has(~ .w6:hover){ stroke: #c60 }
+		.w6:hover .B, .w6:hover ~ .w6 .B{ fill: #c60 }
+		.m, .w1, .w2, .w3, .w4, .w5, .w6, .B, .F_m, .F_w1, .F_w2, .F_w3, .F_w4, .F_w5, .F_w6 { transition: stroke 0.1s ease, fill 0.2s ease; }
+		.G path, .G .X {filter: url(#glow) }
+		.F_m, .F_w1, .F_w2, .F_w3, .F_w4, .F_w5, .F_w6{ font-size: 4.8px; stroke-width: 0 }
+		.m:hover .F_m, .m:hover ~ .m .F_m, .F_m:has(~ .m:hover),
+		.w1:hover .F_w1, .w1:hover ~ .w1 .F_w1, .F_w1:has(~ .w1:hover),
+		.w2:hover .F_w2, .w2:hover ~ .w2 .F_w2, .F_w2:has(~ .w2:hover),
+		.w3:hover .F_w3, .w3:hover ~ .w3 .F_w3, .F_w3:has(~ .w3:hover),
+		.w4:hover .F_w4, .w4:hover ~ .w4 .F_w4, .F_w4:has(~ .w4:hover),
+		.w5:hover .F_w5, .w5:hover ~ .w5 .F_w5, .F_w5:has(~ .w5:hover),
+		.w6:hover .F_w6, .w6:hover ~ .w6 .F_w6, .F_w6:has(~ .w6:hover){ fill: #fff }
+	]]>
+	</style>
+	<defs>
+		<path id="arr" transform="matrix(-.6 0 0 -.6 0 0)" d="M8.719 4.034-2.207.016 8.719-4.002c-1.745 2.372-1.735 5.617 0 8.035z"/>
+		<marker id="m" orient="auto" class="O">
+			<use xlink:href="#arr" class="S m m_"/>
+		</marker>
+		<marker id="w1" orient="auto" class="O">
+			<use xlink:href="#arr" class="S w1 w1_"/>
+		</marker>
+		<marker id="w2" orient="auto" class="O">
+			<use xlink:href="#arr" class="S w2 w2_"/>
+		</marker>
+		<marker id="w3" orient="auto" class="O">
+			<use xlink:href="#arr" class="S w3 w3_"/>
+		</marker>
+		<marker id="w4" orient="auto" class="O">
+			<use xlink:href="#arr" class="S w4 w4_"/>
+		</marker>
+		<marker id="w5" orient="auto" class="O">
+			<use xlink:href="#arr" class="S w5 w5_"/>
+		</marker>
+		<marker id="w6" orient="auto" class="O">
+			<use xlink:href="#arr" class="S w6 w6_"/>
+		</marker>
+		<radialGradient id="S" cx="0.5" cy="0.5" r=".8" fx="0.35" fy="0.25">
+			<stop offset=".2" stop-opacity="0"/>
+			<stop offset=".3" stop-opacity="0.1"/>
+			<stop offset=".5" stop-opacity="0.3"/>
+			<stop offset=".8" stop-opacity="1"/>
+		</radialGradient>
+		<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+			<feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+			<feMerge>
+				<feMergeNode in="blur"/>
+				<feMergeNode in="SourceGraphic"/>
+			</feMerge>
+		</filter>
+		<filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+			<feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/>
+			<feOffset in="blur" dx="2" dy="2" result="offsetBlur"/>
+			<feMerge>
+				<feMergeNode in="offsetBlur"/>
+				<feMergeNode in="SourceGraphic"/>
+			</feMerge>
+		</filter>
+	</defs>
+	<circle r="112.6" cy="0" cx="0" fill="#151b23" stroke="#71706e" filter="url(#shadow)"/>
+	<g class="G" fill="none" stroke-linecap="round">
+		<g class="m w1 w2 w3 w4 w5 w6"><text class="F X" transform="translate(100 100) scale(1.5)">💡</text></g>
+		<path class="w1 w1__" d="M86.603-50c19.12 29.69 21.21 59.38 6.27 89.07A119.012 119.012 0 0 1 86.602 50"/>
+		<path class="w2 w2__" d="M86.603 50C70.45 81.404 45.783 98.059 12.6 99.965A119.01 119.01 0 0 1 0 100"/>
+		<path class="w3 w3__" d="M0 100c-35.272 1.714-62.03-11.321-80.271-39.105A119.011 119.011 0 0 1-86.603 50"/>
+		<path class="w4 w4__" d="M-86.603 50c-19.12-29.69-21.21-59.38-6.269-89.07A119.013 119.013 0 0 1-86.602-50"/>
+		<path class="w5 w5__" d="M-86.603-50c16.153-31.405 40.821-48.06 74.005-49.965 4.071-.233 8.27-.245 12.598-.035"/>
+		<path class="w6 w6__" d="M0-100c35.274-1.714 62.031 11.322 80.273 39.108A119.015 119.015 0 0 1 86.603-50"/>
+		<path class="w1 w1__" d="M86.603-50c-21.324-21.566-46.164-37.04-74.52-46.425A198.578 198.578 0 0 0 0-100"/>
+		<path class="w2 w2__" d="M86.603 50c8.014-29.25 8.996-58.5 2.945-87.75A198.579 198.579 0 0 0 86.603-50"/>
+		<path class="w3 w3__" d="M0 100c29.339-7.684 55.16-21.459 77.466-41.324A198.579 198.579 0 0 0 86.603 50"/>
+		<path class="w4 w4__" d="M-86.603 50c21.325 21.566 46.166 37.042 74.524 46.427A198.58 198.58 0 0 0 0 100"/>
+		<path class="w5 w5__" d="M-86.603-50c-8.014 29.25-8.996 58.5-2.945 87.75A198.58 198.58 0 0 0-86.603 50"/>
+		<path class="w6 w6__" d="M0-100c-29.339 7.684-55.16 21.459-77.466 41.324A198.579 198.579 0 0 0-86.603-50"/>
+		<path class="w1 w1__" d="M86.603-50C85.307 11.605 59.97 59.33 10.593 93.176A224.016 224.016 0 0 1 0 100"/>
+		<path class="w2 w2__" d="M86.603 50c-54 29.68-108 31.6-162 5.76A224.016 224.016 0 0 1-86.602 50"/>
+		<path class="w3 w3__" d="M0 100C-52.703 68.075-81.366 22.27-85.988-37.414A224.1 224.1 0 0 1-86.603-50"/>
+		<path class="w4 w4__" d="M-86.603 50C-85.307-11.606-59.969-59.331-10.59-93.176A224.017 224.017 0 0 1 0-100"/>
+		<path class="w5 w5__" d="M-86.603-50c54-29.68 108.001-31.6 162.002-5.76A224.019 224.019 0 0 1 86.603-50"/>
+		<path class="w6 w6__" d="M0-100C52.704-68.075 81.367-22.27 85.989 37.415c.32 4.129.524 8.324.614 12.585"/>
+		<path class="w1 w1__" d="M86.603-50C32.992-61.08-20.62-61.872-74.23-52.375A445.99 445.99 0 0 0-86.603-50"/>
+		<path class="w2 w2__" d="M86.603 50C69.393-1.968 43.274-48.792 8.243-90.471A442.379 442.379 0 0 0 0-100"/>
+		<path class="w3 w3__" d="M0 100C36.402 59.118 63.893 13.085 82.473-38.097A442.386 442.386 0 0 0 86.603-50"/>
+		<path class="w4 w4__" d="M-86.603 50C-32.992 61.08 20.62 61.872 74.23 52.375A441.7 441.7 0 0 0 86.604 50"/>
+		<path class="w5 w5__" d="M-86.603-50c17.21 51.969 43.33 98.793 78.36 140.473A442.38 442.38 0 0 0 0 100"/>
+		<path class="w6 w6__" d="M0-100C-36.401-59.112-63.892-13.08-82.472 38.096A442.377 442.377 0 0 0-86.602 50"/>
+		<path class="w1 w1__" d="M86.603-50C47.386 7.764-6.167 40.697-74.057 48.798c-4.13.492-8.31.893-12.546 1.202"/>
+		<path class="w2 w2__" d="M86.603 50C16.969 44.92-38.328 15.007-79.29-39.737c-2.49-3.33-4.929-6.75-7.314-10.263"/>
+		<path class="w3 w3__" d="M0 100C-30.417 37.154-32.16-25.691-5.23-88.537A272.522 272.522 0 0 1 0-100"/>
+		<path class="w4 w4__" d="M-86.603 50C-47.385-7.766 6.17-40.698 74.063-48.798c4.127-.493 8.307-.893 12.54-1.202"/>
+		<path class="w5 w5__" d="M-86.603-50C-16.968-44.92 38.33-15.006 79.291 39.74A274.406 274.406 0 0 1 86.603 50"/>
+		<path class="w6 w6__" d="M0-100C30.417-37.154 32.16 25.691 5.23 88.537A274.406 274.406 0 0 1 0 100"/>
+		<path class="m m__" d="M0 0c27.63-10.495 53.192-24.572 76.685-42.232A318.027 318.027 0 0 0 86.603-50"/>
+		<path class="w1 w1__" d="M86.603-50C58.973-39.506 33.412-25.429 9.919-7.77A318.027 318.027 0 0 0 0 0"/>
+		<path class="m m__" d="M0 0c22.903 18.68 47.875 33.779 74.915 45.295 3.854 1.64 7.75 3.21 11.688 4.705"/>
+		<path class="w2 w2__" d="M86.603 50C63.699 31.32 38.728 16.221 11.688 4.706A318.027 318.027 0 0 0 0 0"/>
+		<path class="m m__" d="M0 0c-4.726 29.175-5.316 58.35-1.769 87.525A318.027 318.027 0 0 0 0 100"/>
+		<path class="w3 w3__" d="M0 100c4.726-29.175 5.316-58.35 1.769-87.524A318.027 318.027 0 0 0 0 0"/>
+		<path class="m m__" d="M0 0c-27.63 10.495-53.192 24.572-76.685 42.232A318.026 318.026 0 0 0-86.603 50"/>
+		<path class="w4 w4__" d="M-86.603 50c27.63-10.494 53.191-24.571 76.684-42.23A318.027 318.027 0 0 0 0 0"/>
+		<path class="m m__" d="M0 0c-22.904-18.681-47.876-33.78-74.916-45.295A318.028 318.028 0 0 0-86.603-50"/>
+		<path class="w5 w5__" d="M-86.603-50c22.904 18.68 47.876 33.78 74.916 45.295C-7.833-3.064-3.937-1.495 0 0"/>
+		<path class="m m__" d="M0 0c4.726-29.175 5.316-58.35 1.769-87.525A318.027 318.027 0 0 0 0-100"/>
+		<path class="w6 w6__" d="M0-100c-4.727 29.176-5.316 58.353-1.768 87.529A318.027 318.027 0 0 0 0 0"/>
+		<g class="m F_m" fill="#ff8129">
+			<text class="F_m" transform="rotate(150.5)" x="-51.626" y="-5.515">m,w1</text>
+			<g transform="rotate(60)"><text class="F_m" transform="rotate(150.5)" x="-51.626" y="-5.515">m,w2</text></g>
+			<g transform="rotate(120)"><text class="F_m" transform="rotate(150.5)" x="-51.626" y="-5.515">m,w3</text></g>
+			<g transform="rotate(180)"><text class="F_m" transform="rotate(150.5)" x="-51.626" y="-5.515">m,w4</text></g>
+			<g transform="rotate(240)"><text class="F_m" transform="rotate(150.5)" x="-51.626" y="-5.515">m,w5</text></g>
+			<g transform="rotate(300)"><text class="F_m" transform="rotate(150.5)" x="-51.626" y="-5.515">m,w6</text></g>
+		</g>
+		<g class="w1 F_w1" fill="#263dff">
+			<text class="F_w1" transform="rotate(330)" x="37.408" y="-5.733">w1,m</text>
+			<text class="F_w1" transform="rotate(87)" x="-7.349" y="-104.49">w1,w2</text>
+			<text class="F_w1" transform="rotate(138)" x="24.516" y="-79.670">w1,w3</text>
+			<text class="F_w1" transform="rotate(344)" x="-49.766" y="27.996">w1,w4</text>
+			<text class="F_w1" transform="rotate(177)" x="15.646" y="57.778">w1,w5</text>
+			<text class="F_w1" transform="rotate(208)" x="-2.920" y="91.764">w1,w6</text>
+		</g>
+		<g class="w2 F_w2" fill="#ff42ff" transform="rotate(60)">
+			<text class="F_w2" transform="rotate(330)" x="37.408" y="-5.733">w2,m</text>
+			<text class="F_w2" transform="rotate(87)" x="-7.349" y="-104.49">w2,w3</text>
+			<text class="F_w2" transform="rotate(138)" x="24.516" y="-79.670">w2,w4</text>
+			<text class="F_w2" transform="rotate(344)" x="-49.766" y="27.996">w2,w5</text>
+			<text class="F_w2" transform="rotate(177)" x="15.646" y="57.778">w2,w6</text>
+			<text class="F_w2" transform="rotate(208)" x="-2.920" y="91.764">w2,w1</text>
+		</g>
+		<g class="w3 F_w3" fill="#ff3939" transform="rotate(120)">
+			<text class="F_w3" transform="rotate(330)" x="37.408" y="-5.733">w3,m</text>
+			<text class="F_w3" transform="rotate(87)" x="-7.349" y="-104.49">w3,w4</text>
+			<text class="F_w3" transform="rotate(138)" x="24.516" y="-79.670">w3,w5</text>
+			<text class="F_w3" transform="rotate(344)" x="-49.766" y="27.996">w3,w6</text>
+			<text class="F_w3" transform="rotate(177)" x="15.646" y="57.778">w3,w1</text>
+			<text class="F_w3" transform="rotate(208)" x="-2.920" y="91.764">w3,w2</text>
+		</g>
+		<g class="w4 F_w4" fill="#1abf1a" transform="rotate(180)">
+			<text class="F_w4" transform="rotate(330)" x="37.408" y="-5.733">w4,m</text>
+			<text class="F_w4" transform="rotate(87)" x="-7.349" y="-104.49">w4,w5</text>
+			<text class="F_w4" transform="rotate(138)" x="24.516" y="-79.670">w4,w6</text>
+			<text class="F_w4" transform="rotate(344)" x="-49.766" y="27.996">w4,w1</text>
+			<text class="F_w4" transform="rotate(177)" x="15.646" y="57.778">w4,w2</text>
+			<text class="F_w4" transform="rotate(208)" x="-2.920" y="91.764">w4,w3</text>
+		</g>
+		<g class="w5 F_w5" fill="#9326ff" transform="rotate(240)">
+			<text class="F_w5" transform="rotate(330)" x="37.408" y="-5.733">w5,m</text>
+			<text class="F_w5" transform="rotate(87)" x="-7.349" y="-104.49">w5,w6</text>
+			<text class="F_w5" transform="rotate(138)" x="24.516" y="-79.670">w5,w1</text>
+			<text class="F_w5" transform="rotate(344)" x="-49.766" y="27.996">w5,w2</text>
+			<text class="F_w5" transform="rotate(177)" x="15.646" y="57.778">w5,w3</text>
+			<text class="F_w5" transform="rotate(208)" x="-2.920" y="91.764">w5,w4</text>
+		</g>
+		<g class="w6 F_w6" fill="#c60" transform="rotate(300)">
+			<text class="F_w6" transform="rotate(330)" x="37.408" y="-5.733">w6,m</text>
+			<text class="F_w6" transform="rotate(87)" x="-7.349" y="-104.49">w6,w1</text>
+			<text class="F_w6" transform="rotate(138)" x="24.516" y="-79.670">w6,w2</text>
+			<text class="F_w6" transform="rotate(344)" x="-49.766" y="27.996">w6,w3</text>
+			<text class="F_w6" transform="rotate(177)" x="15.646" y="57.778">w6,w4</text>
+			<text class="F_w6" transform="rotate(208)" x="-2.920" y="91.764">w6,w5</text>
+		</g>
+		<g class="m">
+			<a href="https://xamidi.github.io/pmGenerator/svg/meredith.svg" target="_blank" xlink:title="Open syntax tree of Meredith's axiom (CCCCCpqCNrNsrtCCtpCsp).">
+				<circle r="11.5" class="m_ B"/>
+				<text x="-0.45em" y="0.3em" class="F">m</text>
+				<circle r="11" stroke="none" fill="url(#S)"/>
+			</a>
+		</g>
+		<g class="w1" transform="translate(86.603 -50)">
+			<a href="https://xamidi.github.io/pmGenerator/svg/walsh1st.svg" target="_blank" xlink:title="Open syntax tree of Walsh's first axiom (CCpCCNpqrCsCCNtCrtCpt).">
+				<circle r="11.5" class="w1_ B"/>
+				<text x="-0.625em" y="0.3em" class="F">w1</text>
+				<circle r="11" stroke="none" fill="url(#S)"/>
+			</a>
+		</g>
+		<g class="w2" transform="translate(86.603 50)">
+			<a href="https://xamidi.github.io/pmGenerator/svg/walsh2nd.svg" target="_blank" xlink:title="Open syntax tree of Walsh's second axiom (CpCCqCprCCNrCCNstqCsr).">
+				<circle r="11.5" class="w2_ B"/>
+				<text x="-0.675em" y="0.3em" class="F">w2</text>
+				<circle r="11" stroke="none" fill="url(#S)"/>
+			</a>
+		</g>
+		<g class="w3" transform="translate(0 100)">
+			<a href="https://xamidi.github.io/pmGenerator/svg/walsh3rd.svg" target="_blank" xlink:title="Open syntax tree of Walsh's third axiom (CpCCNqCCNrsCptCCtqCrq).">
+				<circle r="11.5" class="w3_ B"/>
+				<text x="-0.675em" y="0.3em" class="F">w3</text>
+				<circle r="11" stroke="none" fill="url(#S)"/>
+			</a>
+		</g>
+		<g class="w4" transform="translate(-86.603 50)">
+			<a href="https://xamidi.github.io/pmGenerator/svg/walsh4th.svg" target="_blank" xlink:title="Open syntax tree of Walsh's fourth axiom (CpCCNqCCNrsCtqCCrtCrq).">
+				<circle r="11.5" class="w4_ B"/>
+				<text x="-0.675em" y="0.3em" class="F">w4</text>
+				<circle r="11" stroke="none" fill="url(#S)"/>
+			</a>
+		</g>
+		<g class="w5" transform="translate(-86.603 -50)">
+			<a href="https://xamidi.github.io/pmGenerator/svg/walsh5th.svg" target="_blank" xlink:title="Open syntax tree of Walsh's fifth axiom (CCpqCCCrCstCqCNsNpCps).">
+				<circle r="11.5" class="w5_ B"/>
+				<text x="-0.675em" y="0.3em" class="F">w5</text>
+				<circle r="11" stroke="none" fill="url(#S)"/>
+			</a>
+		</g>
+		<g class="w6" transform="translate(0 -100)">
+			<a href="https://xamidi.github.io/pmGenerator/svg/walsh6th.svg" target="_blank" xlink:title="Open syntax tree of Walsh's sixth axiom (CCCpqCCCNrNsrtCCtpCsp).">
+				<circle r="11.5" class="w6_ B"/>
+				<text x="-0.675em" y="0.3em" class="F">w6</text>
+				<circle r="11" stroke="none" fill="url(#S)"/>
+			</a>
+		</g>
+	</g>
+</svg>
