@@ -6,31 +6,25 @@ All vector images shown below contain hyperlinks and use CSS to animate its elem
 
 You can interact with the full variants on [GitHub Pages](https://xamidi.github.io/interactive-svg-graphs/) or by viewing them in their own browser tab.
 
-Please vote on them in [my poll](https://github.com/xamidi/pmGenerator/discussions/6)!
+Please vote on them in [my poll](https://github.com/xamidi/pmGenerator/discussions/8)!
 
-### 1. Minimalistic variant
+### 1. Minimalistic variant <sup><sub>[[Direct link](https://xamidi.github.io/interactive-svg-graphs/axioms-graph.svg)] [[Source code on GitHub](https://github.com/xamidi/interactive-svg-graphs/blob/master/axioms-graph.svg?short_path=18e7700&ts=4)]</sub></sup>
 
 <object data="axioms-graph.svg" type="image/svg+xml">
   <img src="axioms-graph_fallback.png">
 </object>
 
-<sup>[[View code on GitHub.](https://github.com/xamidi/interactive-svg-graphs/blob/master/axioms-graph.svg?short_path=18e7700&ts=4)]</sup>
-
-### 2. Fully labelled variant
+### 2. Fully labelled variant <sup><sub>[[Direct link](https://xamidi.github.io/interactive-svg-graphs/axioms-graph-labels.svg)] [[Source code on GitHub](https://github.com/xamidi/interactive-svg-graphs/blob/master/axioms-graph-labels.svg?short_path=18e7700&ts=4)]</sub></sup>
 
 <object data="axioms-graph-labels.svg" type="image/svg+xml">
   <img src="axioms-graph-labels_fallback.png">
 </object>
 
-<sup>[[View code on GitHub.](https://github.com/xamidi/interactive-svg-graphs/blob/master/axioms-graph-labels.svg?short_path=18e7700&ts=4)]</sup>
-
-### 3. Colorful variant
+### 3. Colorful variant <sup><sub>[[Direct link](https://xamidi.github.io/interactive-svg-graphs/axioms-graph-colored.svg)] [[Source code on GitHub](https://github.com/xamidi/interactive-svg-graphs/blob/master/axioms-graph-colored.svg?short_path=18e7700&ts=4)]</sub></sup>
 
 <object data="axioms-graph-colored.svg" type="image/svg+xml">
   <img src="axioms-graph-colored_fallback.png">
 </object>
-
-<sup>[[View code on GitHub.](https://github.com/xamidi/interactive-svg-graphs/blob/master/axioms-graph-colored.svg?short_path=18e7700&ts=4)]</sup>
 
 <a name="what"></a>
 
