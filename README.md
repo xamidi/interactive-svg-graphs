@@ -9,10 +9,10 @@ You can interact with the full variants on [GitHub Pages](https://xamidi.github.
 Please submit your preferences to [my poll](https://github.com/xamidi/pmGenerator/discussions/8)! (Votes are anonymous.)
 
 <details><summary>Hints to handle the animations <picture><img src="click-cursor.svg" width="20" alt="☜"></picture></summary>
-
-- Move your mouse cursor over different elements to reveal or highlight all similar elements.
-- The light bulb (💡) does this for everything at once.
-
+<ul>
+  <li>Move your mouse cursor over different elements to reveal or highlight all similar elements.</li>
+  <li>The light bulb (💡) does this for everything at once.</li>
+</ul>
 </details>
 
 ### 1. Minimalistic variant <sup><sub>[[Direct link](https://xamidi.github.io/interactive-svg-graphs/axioms-graph.svg)] [[Source code on GitHub](https://github.com/xamidi/interactive-svg-graphs/blob/master/axioms-graph.svg?short_path=18e7700&ts=4)]</sub></sup>
