@@ -2,17 +2,17 @@
 
 <sup>The following images are interactive Scalable Vector Graphics (`.svg`) files that include animations and hyperlinks. I embedded these images via the HTML tag [`<object>`](https://www.w3schools.com/tags/tag_object.asp). **However**, interactive components do not work in GitHub Markdown, because [`<img>`](https://www.w3schools.com/tags/tag_img.asp) is insufficient and even local embeddings with tags such as `<object>`, [`<embed>`](https://www.w3schools.com/tags/tag_embed.asp) or [`<iframe>`](https://www.w3schools.com/tags/tag_iframe.asp) are currently unsupported by [GitHub Flavored Markdown](https://github.github.com/gfm/). But they should work on the [website](https://xamidi.github.io/interactive-svg-graphs/). In case you do not see vertices, edges *and* labels changing their colors when hovering components with your mouse cursor on the website, then your browser is outdated and doesn't support current [SVG](https://www.w3.org/TR/SVG2/) or [CSS](https://www.w3.org/TR/css-2023/) specifications.</sup>
 
-All vector images shown below contain hyperlinks and use CSS to animate its elements based on user interaction. I created them with the intent to use them in `.md` ([Markdown](https://daringfireball.net/projects/markdown/)) files and discussions on GitHub, but then realized that no features are supported to actually embed them (meaning interactive elements do not operate there).
+All vector images shown below contain hyperlinks and use CSS to animate their elements based on user interaction. I created them with the intent to use them in `.md` ([Markdown](https://daringfireball.net/projects/markdown/)) files and discussions on GitHub, but then realized that no features are supported to actually embed them (meaning interactive elements do not operate there).
 
 You can interact with the full variants on [GitHub Pages](https://xamidi.github.io/interactive-svg-graphs/) or by viewing them in their own browser tab.
 
 Please submit your preferences to [my poll](https://github.com/xamidi/pmGenerator/discussions/8)! (Votes are anonymous.)
 
 <details><summary>Hints to handle the animations <picture><img src="click-cursor.svg" width="20" alt="☜"></picture></summary>
-
-- Move your mouse cursor over different elements to reveal or highlight all similar elements.
-- The light bulb (💡) does this for everything at once.
-
+<ul>
+  <li>Move your mouse cursor over different elements to reveal or highlight all similar elements.</li>
+  <li>The light bulb (💡) does this for everything at once.</li>
+</ul>
 </details>
 
 ### 1. Minimalistic variant <sup><sub>[[Direct link](https://xamidi.github.io/interactive-svg-graphs/axioms-graph.svg)] [[Source code on GitHub](https://github.com/xamidi/interactive-svg-graphs/blob/master/axioms-graph.svg?short_path=18e7700&ts=4)]</sub></sup>
